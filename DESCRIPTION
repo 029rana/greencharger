@@ -1,0 +1,19 @@
+Package: greencharger
+Title: Sistem Manajemen Energi Jaringan EV Charging
+Version: 0.1.0
+Author: NUR RANA FAIZAH <24611029@students.uii.ac.id>
+Maintainer: NUR RANA FAIZAH <24611029@students.uii.ac.id>
+Description: Package ini menyediakan modul komputasi bagi Operator Stasiun 
+    PT Green Charge Indonesia untuk menerima, memantau, dan mengelola penggunaan 
+    energi, menghitung KPI operasional, serta melakukan prediksi regresi linear.
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: 
+    tidyverse,
+    ggplot2,
+    scales,
+    lubridate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
